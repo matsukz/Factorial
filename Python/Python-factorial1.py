@@ -7,6 +7,8 @@ Flag = False
 
 stime = datetime.datetime.now().time()
 
+print(stime)
+
 if Kazu == 1:
     Ans = 1
         
@@ -29,6 +31,8 @@ else:
             #print("ERROR")
 
 etime = datetime.datetime.now().time()
+
+print(etime)
 
 try:
     File = open("Ans.txt", "w")
